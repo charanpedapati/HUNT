@@ -9,7 +9,7 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text  style={{ fontFamily: 'Rubik-Bold', fontSize: 40 }}className="font-bold my-10 text-3xl font-rubik">Welcome to HUNT.</Text>
+      <Text className="font-bold my-10 text-3xl font-rubik">Welcome to HUNT.</Text>
       <Link href="/sign-in" className="font-semibold font-rubik">Sign In</Link>
       <Link href="/explore">Explore</Link>
       <Link href="/profile">Profile</Link>
