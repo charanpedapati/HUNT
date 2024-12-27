@@ -6,12 +6,12 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        rubik: ['Rubik-Regular', 'sans-serif'],
-        "rubik-bold": ['Rubik-Bold', 'sans-serif'],
-        "rubik-extrabold": ['Rubik-ExtraBold', 'sans-serif'],
-        "rubik-medium": ['Rubik-medium', 'sans-serif'],
-        "rubik-semibold": ['Rubik-SemiBold', 'sans-serif'],
-        "rubik-light": ['Rubik-Light', 'sans-serif'],
+        geist: ['Geist-Regular', 'sans-serif'],
+        "geist-bold": ['Geist-Bold', 'sans-serif'],
+        "geist-extrabold": ['Geist-ExtraBold', 'sans-serif'],
+        "geist-medium": ['Geist-medium', 'sans-serif'],
+        "geist-semibold": ['Geist-SemiBold', 'sans-serif'],
+        "geist-light": ['Geist-Light', 'sans-serif'],
       },
       colors: {
         "primary": {

@@ -1,15 +1,16 @@
-import { SplashScreen, Stack } from "expo-router";
+import {  Stack } from "expo-router";
 import "./globals.css"
 import { useFonts } from "expo-font";
 import { useEffect } from "react";
+import * as SplashScreen from "expo-splash-screen";
 export default function RootLayout() {
   const [fontsLoaded] = useFonts({
-    "Rubik-Bold": require("../assets/fonts/Rubik-Bold.ttf"),
-    "Rubik-ExtraBold": require("../assets/fonts/Rubik-ExtraBold.ttf"),
-    "Rubik-Light": require("../assets/fonts/Rubik-Light.ttf"),
-    "Rubik-Medium": require("../assets/fonts/Rubik-Medium.ttf"),
-    "Rubik-Regular": require("../assets/fonts/Rubik-Regular.ttf"),
-    "Rubik-SemiBold": require("../assets/fonts/Rubik-SemiBold.ttf"),
+    "Geist-Bold": require("../assets/fonts/Geist-Bold.ttf"),
+    "Geist-ExtraBold": require("../assets/fonts/Geist-ExtraBold.ttf"),
+    "Geist-Light": require("../assets/fonts/Geist-Light.ttf"),
+    "Geist-Medium": require("../assets/fonts/Geist-Medium.ttf"),
+    "Geist-Regular": require("../assets/fonts/Geist-Regular.ttf"),
+    "Geist-SemiBold": require("../assets/fonts/Geist-SemiBold.ttf"),
   })
   useEffect(() => {
     if (fontsLoaded) {

@@ -38,12 +38,12 @@
         "expo-font", 
         {
           "fonts": [
-            "./assets/fonts/Rubik-Bold.ttf",
-            "./assets/fonts/Rubik-ExtraBold.ttf",
-            "./assets/fonts/Rubik-Light.ttf",
-            "./assets/fonts/Rubik-Medium.ttf",
-            "./assets/fonts/Rubik-Regular.ttf",
-            "./assets/fonts/Rubik-SemiBold.ttf"
+            "./assets/fonts/Geist-Bold.ttf",
+            "./assets/fonts/Geist-ExtraBold.ttf",
+            "./assets/fonts/Geist-Light.ttf",
+            "./assets/fonts/Geist-Medium.ttf",
+            "./assets/fonts/Geist-Regular.ttf",
+            "./assets/fonts/Geist-SemiBold.ttf"
           ]
         }
       ]

@@ -9,11 +9,11 @@ export default function Index() {
         alignItems: "center",
       }}
     >
-      <Text className="font-bold my-10 text-3xl font-rubik">Welcome to HUNT.</Text>
-      <Link href="/sign-in" className="font-semibold font-rubik">Sign In</Link>
-      <Link href="/explore">Explore</Link>
-      <Link href="/profile">Profile</Link>
-      <Link href="/properties/1">Properties</Link>
+      <Text className="my-10 text-3xl font-geist-semibold">Welcome to HUNT.</Text>
+      <Link href="/sign-in" className="font-semibold font-geist">Sign In</Link>
+      <Link href="/explore" className = "font-geist">Explore</Link>
+      <Link href="/profile" className = "font-geist">Profile</Link>
+      <Link href="/properties/1" className = "font-geist">Properties</Link>
     </View>
   );
 }
